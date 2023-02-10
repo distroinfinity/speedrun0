@@ -52,7 +52,8 @@ export const NETWORKS = {
     chainId: 5,
     faucet: "https://goerli-faucet.slock.it/",
     blockExplorer: "https://goerli.etherscan.io/",
-    rpcUrl: `https://goerli.infura.io/v3/${INFURA_ID}`,
+    // rpcUrl: `https://goerli.infura.io/v3/${INFURA_ID}`,
+    rpcUrl: `test.url`, // dont forget to add your infura/alchemy rpc url
   },
   sepolia: {
     name: "sepolia",
